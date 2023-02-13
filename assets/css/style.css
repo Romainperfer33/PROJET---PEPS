@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto\ 2/Roboto-Regular);
+}
+
+body{
+    font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* ------ HEADER ------ */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+    font-weight: bold;
+    font-size: small;
+}
+
+nav ul li {
+    list-style-type: none;
+    
+}
+
+nav ul {
+    display:flex;
+}
+
+.d {
+    border-right: 1px solid black;
+}
+
+header .logo {
+    padding-right: 400px;
+    height: 80px;
+}
+
+/* ------ MAIN ------ */
+
+/* SECTION 1 */
+.trv {
+    background-image: url(../img/photo-1556139943-4bdca53adf1e\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+}
+
+ h1 {
+    font-size: 3em;
+    text-shadow: 0px 5px 10px grey;
+    margin-top: 0;
+    padding-top: 176px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+ .trv a {
+    background-color: palevioletred;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+/* SECTION 2 */
+
+.peps {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.peps p {
+    color: grey;
+    font-size: small;
+    margin-top: -1rem;
+}
+
+.rh {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col h3{
+    margin-top: 0;
+}
+
+.col ul {
+    list-style-type:none;
+    color: grey;
+    font-size:medium;
+    padding-inline-start: 0px;
+}
+
+.col li::before{
+    content: "- ";
+}
