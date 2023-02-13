@@ -38,7 +38,7 @@ nav ul {
 
 header .logo {
     padding-right: 400px;
-    height: 80px;
+    height: 60px;
 }
 
 /* ------ MAIN ------ */
@@ -84,7 +84,7 @@ header .logo {
 
 .rh {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .col h3{
@@ -98,6 +98,64 @@ header .logo {
     padding-inline-start: 0px;
 }
 
+.col {
+    margin-left: 100px;
+}
 .col li::before{
     content: "- ";
 }
+
+section .ligne {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* SECTION 3 */
+.pls {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 450px;
+    margin-left: 450px;
+}
+.pls p {
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.pls p {
+    color: grey;
+    font-size: small;
+}
+
+span {
+    font-weight: bold;
+    color: black;
+}
+
+.pls a {
+    display: inline-block;
+    text-decoration: none;
+    color: palevioletred;
+    border: 1px solid palevioletred;
+    font-weight: bold;
+    font-size: small;
+    padding: 8px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 5px;
+    margin-top: 20px
+}
+
+.coeur {
+    display:flex;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+}
+
+.coeur .rab {
+    height: 50px;
+    width: 50px;
+}
+
