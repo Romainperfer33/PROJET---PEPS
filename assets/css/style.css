@@ -210,6 +210,7 @@ section .ligne {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .evian li {
@@ -236,6 +237,11 @@ section .ligne {
     width: 20%;
 }
 
+.ta .bi {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
 .evian ul {
     padding: 0px;
 }
@@ -247,6 +253,9 @@ section .ligne {
     height: 10px;
     width: 150px;
     margin: 0% auto;
+    position: relative;
+    bottom: 10px;
+    z-index: -1;
 }
 
 .ta h2::after {
@@ -256,6 +265,9 @@ section .ligne {
     height: 10px;
     width: 200px;
     margin: 0% auto;
+    position: relative;
+    bottom: 10px;
+    z-index: -1;
 }
 
 .to h2::after {
@@ -265,4 +277,53 @@ section .ligne {
     height: 10px;
     width: 300px;
     margin: 0% auto;
+    position: relative;
+    bottom: 10px;
+    z-index: -1;
+}
+.trait{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* SECTION 5 */
+.ils {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+.marco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sylvie {
+    width: 370px;
+    height: 290px;
+    text-align: center;
+    border: 1px solid #3bd8c5;
+    margin-top: 50px;
+}
+
+.yep {
+    position: relative;
+    margin-top: -45px;
+}
+
+.sylvie h4 {
+    margin-top: -15px;
+    color: grey;
+    font-weight: normal;
+}
+
+.sylvie p {
+    padding-right: 10px; ;
+    padding-left: 10px;
+    color: grey;
+    font-size: small;
 }
