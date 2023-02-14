@@ -313,6 +313,7 @@ section .ligne {
 .yep {
     position: relative;
     margin-top: -45px;
+    border: 10px solid white;
 }
 
 .sylvie h4 {
@@ -326,4 +327,29 @@ section .ligne {
     padding-left: 10px;
     color: grey;
     font-size: small;
+}
+
+/* SECTION 6 */
+
+.blog {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.blog p {
+    padding: 0px;
+    margin-top: -11px;
+    color: grey;
+}
+
+.super {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+}
+
+.man {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
