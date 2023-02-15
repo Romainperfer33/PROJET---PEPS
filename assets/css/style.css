@@ -346,10 +346,54 @@ section .ligne {
     display: flex;
     justify-content: space-around;
     margin-left: 200px;
+    margin-top: 100px;
 }
-
+.lune {
+    height: 167px;
+    width: 514px;
+    transform: translate(-100px, 0px);
+}
 .man {
     display: flex;
     flex-direction: column;
+    margin-left: -43px;
+    position: relative;
+    bottom: 25px;
+}
+
+.man h2 {
+    margin-right: 500px;
+    margin-bottom: -10px;
+}
+
+.man p {
+    margin-bottom: 10px;
+    padding-right: 148px;
+}
+
+.man a {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    color: palevioletred;
+    border: 1px solid palevioletred;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    transform: translate(0px, 180px);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.d {
+    border-top: 1px solid #3bd8c5;
+    position: relative;
+    margin-top: 100px;
     margin-left: 100px;
+    margin-right: 100px;
 }
