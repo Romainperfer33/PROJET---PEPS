@@ -349,14 +349,12 @@ section .ligne {
     margin-top: 100px;
 }
 .lune {
-    height: 167px;
-    width: 514px;
     transform: translate(-100px, 0px);
 }
 .man {
     display: flex;
     flex-direction: column;
-    margin-left: -43px;
+    margin-left: 64px;
     position: relative;
     bottom: 25px;
 }
@@ -369,6 +367,8 @@ section .ligne {
 .man p {
     margin-bottom: 10px;
     padding-right: 148px;
+    color: grey;
+    font-size: small;
 }
 
 .man a {
@@ -390,10 +390,95 @@ section .ligne {
     margin-bottom: 10px;
 }
 
-.d {
+.e {
+    
     border-top: 1px solid #3bd8c5;
-    position: relative;
-    margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 100px;
+}
+
+.check {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+
+.montre {
+    margin-left: 160px;
+}
+.montre h2 {
+    padding-right: 400px;
+    margin-top: 0;
+}
+
+.montre a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid palevioletred;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    color: palevioletred;
+    margin-top: 10px;
+}
+
+.bracelet {
+    object-fit: contain;
+    transform: translate(0px, -11px)
+}
+
+.montre p {
+    color: grey;
+    font-size: small;
+
+}
+
+/* FOOTER */
+
+.fin {
+    background-color: rgb(206, 205, 205);
+    height: 200px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 400px;
+    gap: 50px;
+    position: absolute;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.contact h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.contact p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: small;
+}
+
+ .contact .pa {
+    margin-top: 10px;
+}
+
+.imgfin {
+    padding-right: 50px;
+    border-right: 1px solid black;
+}
+
+.contact p span {
+    font-weight: bold;
 }
