@@ -15,7 +15,7 @@ header{
     margin-bottom: 10px;
 }
 
-nav ul li a{
+.debut ul li a{
     text-decoration: none;
     color: black;
     padding: 40px;
@@ -23,12 +23,12 @@ nav ul li a{
     font-size: small;
 }
 
-nav ul li {
+.debut ul li {
     list-style-type: none;
     
 }
 
-nav ul {
+.debut ul {
     display:flex;
 }
 
@@ -449,7 +449,6 @@ section .ligne {
     justify-content: center;
     padding-left: 400px;
     gap: 50px;
-    position: absolute;
 }
 
 .contact {
@@ -480,5 +479,31 @@ section .ligne {
 }
 
 .contact p span {
+    font-weight: bold;
+}
+
+.navfi li {
+    background-color:rgb(206, 205, 205);
+    list-style: none;
+    font-size: smaller;
+    color: grey;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navfi ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(206, 205, 205);
+
+}
+
+.navfi .amg {
+    border-right: 1px solid black;
+}
+
+.gras {
+    color: black;
     font-weight: bold;
 }
